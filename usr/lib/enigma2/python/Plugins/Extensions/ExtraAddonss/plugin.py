@@ -26,9 +26,9 @@ folder = fold + '/picon'
 if not os.path.exists(folder):
     os.system('mkdir ' + folder)
 currversion = '1.0'
-host = 'aHR0cDovL3d3dy5vcGVuZXNpLmV1L3BhbmVsYWRkb24ueG1s='
+host = 'aHR0cDovL3d3dy5vcGVuZXNpLmV1L3BhbmVsYWRkb25zcy54bWw='
 hostxml = base64.b64decode(host)
-ipkurl = 'aHR0cDovL3d3dy5vcGVuZXNpLmV1L2FkZG9ucy9FeHRyYUFkZG9uc3N1cGRhdGUvTmV3UGFuZWwuaXBr'
+ipkurl = 'aHR0cDovL3d3dy5vcGVuZXNpLmV1L2FkZG9ucy9FeHRyYUFkZG9uc3N1cGRhdGUvTmV3UGFuZWxIRC5pcGs='
 ipk = base64.b64decode(ipkurl)
 
 def updateable():
@@ -53,16 +53,16 @@ updateable()
 class addonsupdatesScreen(Screen):
     skin = '''
     <screen name="addonsupdatesScreen" position="center,center" size="1280,720" title="ExtraAddonss" backgroundColor="transparent" flags="wfNoBorder">
-    <widget name="text" position="24,124" size="787,475" font="Regular;22" />
-    <ePixmap position="center,0" size="1280,720" zPosition="-10" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ExtraAddonss/hd/Addons_news.png" transparent="1" alphatest="on" />
-    <widget source="Title" render="Label" position="179,44" size="916,63" font="Regular; 48" transparent="1" halign="center" valign="center" zPosition="11" />
-    <widget source="global.CurrentTime" render="Label" position="1008,40" size="226,74" font="Regular; 40" valign="center" halign="right" transparent="1" zPosition="1">
+    <widget name="text" position="84,149" size="787,475" font="Regular;22" />
+    <ePixmap position="70,35" size="1149,646" zPosition="-10" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ExtraAddonss/hd/Addons_news.png" transparent="1" alphatest="on" />
+    <widget source="Title" render="Label" position="142,61" size="916,63" font="Regular; 48" transparent="1" halign="center" valign="center" zPosition="11" />
+    <widget source="global.CurrentTime" render="Label" position="959,70" size="226,74" font="Regular; 40" valign="center" halign="right" transparent="1" zPosition="1">
     <convert type="ClockToText">Format:%H:%M</convert>
     </widget>
-    <widget source="global.CurrentTime" render="Label" position="12,63" size="340,37" transparent="1" zPosition="1" font="Regular; 24" valign="center" halign="left">
+    <widget source="global.CurrentTime" render="Label" position="80,87" size="340,37" transparent="1" zPosition="1" font="Regular; 24" valign="center" halign="left">
         <convert type="ClockToText">Date</convert>
     </widget>
-    <eLabel name="" position="90,669" size="145,50" font="Regular; 28" valign="center" halign="center" text="Exit" zPosition="2" transparent="1" />
+    <eLabel name="" position="134,635" size="145,50" font="Regular; 28" valign="center" halign="center" text="Exit" zPosition="2" transparent="1" />
     </screen>
 
     '''
@@ -102,16 +102,16 @@ class addonsupdatesScreen(Screen):
 class AboutScreen(Screen):
     skin = '''
     <screen flags="wfNoBorder" name="AboutScreen" position="center,center" size="1280,720" title="ExtraAddonss" backgroundColor="transparent">
-    <widget name="text" position="24,124" size="787,475" font="Regular;22" zPosition="1" />
-    <ePixmap position="0,0" size="1280,720" zPosition="-10" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ExtraAddonss/hd/Addons_news.png" transparent="1" alphatest="on" />
-    <widget source="Title" render="Label" position="179,44" size="916,63" font="Regular; 48" transparent="1" halign="center" valign="center" zPosition="11" />
-    <widget source="global.CurrentTime" render="Label" position="1008,40" size="226,74" font="Regular; 40" valign="center" halign="right" transparent="1" zPosition="1">
+    <widget name="text" position="84,149" size="787,475" font="Regular;22" zPosition="1" />
+    <ePixmap position="70,35" size="1149,646" zPosition="-10" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ExtraAddonss/hd/Addons_news.png" transparent="1" alphatest="on" />
+    <widget source="Title" render="Label" position="142,61" size="916,63" font="Regular; 48" transparent="1" halign="center" valign="center" zPosition="11" />
+    <widget source="global.CurrentTime" render="Label" position="959,70" size="226,74" font="Regular; 40" valign="center" halign="right" transparent="1" zPosition="1">
     <convert type="ClockToText">Format:%H:%M</convert>
     </widget>
-    <widget source="global.CurrentTime" render="Label" position="12,63" size="340,37" transparent="1" zPosition="1" font="Regular; 24" valign="center" halign="left">
+    <widget source="global.CurrentTime" render="Label" position="80,87" size="340,37" transparent="1" zPosition="1" font="Regular; 24" valign="center" halign="left">
         <convert type="ClockToText">Date</convert>
     </widget>
-    <eLabel name="" position="70,669" size="145,50" font="Regular; 28" valign="center" halign="center" text="Exit" zPosition="2" transparent="1" />
+    <eLabel name="" position="134,635" size="145,50" font="Regular; 28" valign="center" halign="center" text="Exit" zPosition="2" transparent="1" />
     </screen>
     '''
 #skin fhd
@@ -128,21 +128,21 @@ class AboutScreen(Screen):
 class AddonsGroups(Screen):
     skin = '''
     <screen name="AddonsGroups" position="0,0" size="1280,720" title="ExtraAddonss" backgroundColor="transparent" flags="wfNoBorder">
-    <widget source="Title" render="Label" position="179,44" size="916,63" font="Regular; 48" transparent="1" halign="center" valign="center" zPosition="11" />
-    <widget source="global.CurrentTime" render="Label" position="1008,40" size="226,74" font="Regular; 40" valign="center" halign="right" transparent="1" zPosition="1">
-        <convert type="ClockToText">Format:%H:%M</convert>
+    <widget source="Title" render="Label" position="142,61" size="916,63" font="Regular; 48" transparent="1" halign="center" valign="center" zPosition="11" />
+    <widget source="global.CurrentTime" render="Label" position="959,70" size="226,74" font="Regular; 40" valign="center" halign="right" transparent="1" zPosition="1">
+    <convert type="ClockToText">Format:%H:%M</convert>
     </widget>
-    <widget source="global.CurrentTime" render="Label" position="12,63" size="340,37" transparent="1" zPosition="1" font="Regular; 24" valign="center" halign="left">
+    <widget source="global.CurrentTime" render="Label" position="80,87" size="340,37" transparent="1" zPosition="1" font="Regular; 24" valign="center" halign="left">
         <convert type="ClockToText">Date</convert>
     </widget>
-    <widget name="key_red" position="1,668" zPosition="5" size="329,45" valign="center" halign="center" font="Regular; 32" transparent="1" />
-    <widget name="key_yellow" position="315,668" zPosition="5" size="329,45" valign="center" halign="center" font="Regular; 32" transparent="1" foregroundColor="white" />
-    <widget name="key_blue" position="632,668" zPosition="5" size="329,45" valign="center" halign="center" font="Regular; 32" transparent="1" foregroundColor="white" />
-    <widget font="Regular; 32" foregroundColor="white" halign="center" name="" position="935,614" size="329,45" transparent="1" valign="center" zPosition="5" backgroundColor="black" />
-    <widget name="list" position="24,124" size="841,467" font="Regular;24" itemHeight="40" scrollbarMode="showOnDemand" zPosition="1" />
-    <widget name="info" position="20,607" zPosition="4" size="307,32" font="Regular; 22" foregroundColor="white" transparent="1" halign="right" valign="center" />
-    <widget name="fspace" position="327,607" zPosition="5" size="600,32" font="Regular;22" foregroundColor="white" transparent="1" halign="left" valign="center" />
-    <ePixmap position="center,0" size="1280,720" zPosition="0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ExtraAddonss/hd/AddonsGroups.png" transparent="1" alphatest="on" />
+    <widget name="key_red" position="52,639" zPosition="5" size="329,45" valign="center" halign="center" font="Regular; 32" transparent="1" />
+    <widget name="key_yellow" position="329,636" zPosition="5" size="329,45" valign="center" halign="center" font="Regular; 32" transparent="1" foregroundColor="white" />
+    <widget name="key_blue" position="617,635" zPosition="5" size="329,45" valign="center" halign="center" font="Regular; 32" transparent="1" foregroundColor="white" />
+    <widget font="Regular; 32" foregroundColor="white" halign="center" name="" position="872,585" size="329,45" transparent="1" valign="center" zPosition="5" backgroundColor="black" />
+    <widget name="list" position="84,149" size="782,442" font="Regular;24" itemHeight="40" scrollbarMode="showOnDemand" zPosition="1" />
+    <widget name="info" position="82,596" zPosition="4" size="307,32" font="Regular; 22" foregroundColor="white" transparent="1" halign="right" valign="center" />
+    <widget name="fspace" position="388,596" zPosition="5" size="600,32" font="Regular;22" foregroundColor="white" transparent="1" halign="left" valign="center" />
+    <ePixmap position="70,35" size="1149,646" zPosition="0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ExtraAddonss/hd/AddonsGroups.png" transparent="1" alphatest="on" />
     </screen>
     '''
     
@@ -240,16 +240,16 @@ class AddonsGroups(Screen):
 class IpkgPackages(Screen):
     skin ='''
     <screen name="IpkgPackages" position="center,center" size="1280,720" title="www.openesi.eu" flags="wfNoBorder" backgroundColor="transparent">
-    <widget source="Title" render="Label" position="179,44" size="916,63" font="Regular; 48" transparent="1" halign="center" valign="center" zPosition="11" />
-    <widget source="global.CurrentTime" render="Label" position="1008,40" size="226,74" font="Regular; 40" valign="center" halign="right" transparent="1" zPosition="1">
-        <convert type="ClockToText">Format:%H:%M</convert>
+    <widget source="Title" render="Label" position="142,61" size="916,63" font="Regular; 48" transparent="1" halign="center" valign="center" zPosition="11" />
+    <widget source="global.CurrentTime" render="Label" position="959,70" size="226,74" font="Regular; 40" valign="center" halign="right" transparent="1" zPosition="1">
+    <convert type="ClockToText">Format:%H:%M</convert>
     </widget>
-    <widget source="global.CurrentTime" render="Label" position="12,63" size="340,37" transparent="1" zPosition="1" font="Regular; 24" valign="center" halign="left">
+    <widget source="global.CurrentTime" render="Label" position="80,87" size="340,37" transparent="1" zPosition="1" font="Regular; 24" valign="center" halign="left">
         <convert type="ClockToText">Date</convert>
     </widget>
-    <widget name="countrymenu" position="24,124" size="731,475" font="Regular; 24" itemHeight="40" scrollbarMode="showOnDemand" zPosition="1" />
-    <ePixmap position="344,600" zPosition="4" size="607,61" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ExtraAddonss/hd/extra.png.png" transparent="1" alphatest="on" />\n\t                  <ePixmap position="0,0" zPosition="-10" size="1280,720" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ExtraAddonss/hd/Addons.png" transparent="1" alphatest="on" />
-    </screen>    
+    <widget name="countrymenu" position="84,149" size="658,482" font="Regular; 24" itemHeight="40" scrollbarMode="showOnDemand" zPosition="1" />
+    <ePixmap position="381,684" zPosition="4" size="607,61" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ExtraAddonss/hd/extra.png.png" transparent="1" alphatest="on" />\n\t                  <ePixmap zPosition="-10" position="70,35" size="1149,646" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ExtraAddonss/hd/Addons.png" transparent="1" alphatest="on" />
+    </screen>   
     '''
 #skin fhd
 #    skin = '<screen name="IpkgPackages" position="center,center" size="1920,1080" title="www.openesi.eu" flags="wfNoBorder" backgroundColor="transparent">\n<widget source="Title" render="Label" position="506,102" size="916,63" font="Regular; 48" transparent="1" halign="center" valign="center" zPosition="11" />\n<widget source="global.CurrentTime" render="Label" position="1627,109" size="226,74" font="Regular; 65" valign="center" halign="right" transparent="1">\n      <convert type="ClockToText">Format:%H:%M</convert>\n    </widget>\n<widget source="global.CurrentTime" render="Label" position="65,129" size="340,37" transparent="1" zPosition="1" font="Regular; 26" valign="center" halign="left">\n      <convert type="ClockToText">Date</convert>\n    </widget>\n\t\t\t  <widget name="countrymenu" position="65,210" size="1020,720" font="Regular;28" itemHeight="40" scrollbarMode="showOnDemand" zPosition="1" />\n\t                  <ePixmap position="65,936" zPosition="4" size="607,61" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ExtraAddonss/extra.png.png" transparent="1" alphatest="on" />\n\t                  <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ExtraAddonss/Addons.png" transparent="1" alphatest="on" />\n        \t</screen>'
