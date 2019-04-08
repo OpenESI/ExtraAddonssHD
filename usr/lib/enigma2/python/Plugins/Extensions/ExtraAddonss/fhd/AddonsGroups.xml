@@ -1,0 +1,17 @@
+<screen name="AddonsGroups" position="0,0" size="1920,1080" title="ExtraAddonss" backgroundColor="transparent" flags="wfNoBorder">
+    <widget source="Title" render="Label" position="1110,529" size="916,63" font="Regular; 48" transparent="1" halign="center" valign="center" zPosition="11" />
+    <widget source="global.CurrentTime" render="Label" position="1586,78" size="226,74" font="Regular; 60" valign="center" halign="right" transparent="1" zPosition="1">
+        <convert type="ClockToText">Format:%H:%M</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="1243,78" size="340,37" transparent="1" zPosition="1" font="Regular; 30" valign="center" halign="left">
+        <convert type="ClockToText">Date</convert>
+    </widget>
+    <widget name="key_red" position="1502,849" zPosition="5" size="329,45" valign="center" halign="right" font="Regular; 32" transparent="1" />
+    <widget name="key_yellow" position="1503,892" zPosition="5" size="329,45" valign="center" halign="right" font="Regular; 32" transparent="1" foregroundColor="white" />
+    <widget name="key_blue" position="1505,933" zPosition="5" size="329,45" valign="center" halign="right" font="Regular; 32" transparent="1" foregroundColor="white" />
+    <widget font="Regular; 32" foregroundColor="white" halign="center" name="" position="1298,990" size="329,45" transparent="1" valign="center" zPosition="5" backgroundColor="black" />
+    <widget name="list" position="90,115" size="1020,604" font="Regular;28" itemHeight="40" scrollbarMode="showOnDemand" zPosition="1" />
+    <widget name="info" position="62,742" zPosition="4" size="400,45" font="Regular; 28" foregroundColor="white" transparent="1" halign="right" valign="center" />
+    <widget name="fspace" position="463,741" zPosition="5" size="786,45" font="Regular; 28" foregroundColor="white" transparent="1" halign="left" valign="center" />
+    <ePixmap position="0,0" size="1920,1080" zPosition="0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ExtraAddonss/fhd/AddonsGroups.png" transparent="1" alphatest="on" />
+</screen>

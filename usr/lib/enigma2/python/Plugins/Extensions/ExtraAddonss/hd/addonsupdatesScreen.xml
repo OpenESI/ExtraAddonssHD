@@ -1,0 +1,12 @@
+<screen name="addonsupdatesScreen" position="center,center" size="1280,720" title="ExtraAddonss" backgroundColor="transparent" flags="wfNoBorder">
+    <widget name="text" position="50,59" size="694,429" font="Regular;22" />
+    <ePixmap position="0,0" size="1280,720" zPosition="-10" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ExtraAddonss/hd/Addons_news.png" transparent="1" alphatest="on" />
+    <widget source="Title" render="Label" position="576,364" size="916,63" font="Regular; 48" transparent="1" halign="center" valign="center" zPosition="11" />
+    <widget source="global.CurrentTime" render="Label" position="942,82" size="226,74" font="Regular; 40" valign="center" halign="right" transparent="1" zPosition="1">
+    <convert type="ClockToText">Format:%H:%M</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="911,57" size="340,37" transparent="1" zPosition="1" font="Regular; 24" valign="center" halign="left">
+        <convert type="ClockToText">Date</convert>
+    </widget>
+    <eLabel name="" position="1072,561" size="145,50" font="Regular; 24" valign="center" halign="right" text="Exit" zPosition="2" transparent="1" />
+    </screen>

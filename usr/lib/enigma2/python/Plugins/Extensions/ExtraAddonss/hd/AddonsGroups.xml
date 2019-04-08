@@ -1,0 +1,18 @@
+<screen name="AddonsGroups" position="center,center" size="1280,720" title="ExtraAddonss" backgroundColor="transparent" flags="wfNoBorder">
+    <widget name="text" position="50,59" size="694,429" font="Regular;22" />
+    <ePixmap position="0,0" size="1280,720" zPosition="-10" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ExtraAddonss/hd/AddonsGroups.png" transparent="1" alphatest="on" />
+    <widget source="Title" render="Label" position="576,364" size="916,63" font="Regular; 48" transparent="1" halign="center" valign="center" zPosition="11" />
+    <widget source="global.CurrentTime" render="Label" position="942,82" size="226,74" font="Regular; 40" valign="center" halign="right" transparent="1" zPosition="1">
+    <convert type="ClockToText">Format:%H:%M</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="911,57" size="340,37" transparent="1" zPosition="1" font="Regular; 24" valign="center" halign="left">
+        <convert type="ClockToText">Date</convert>
+    </widget>
+    <widget name="key_red" position="888,562" zPosition="5" size="329,45" valign="center" halign="right" font="Regular; 24" transparent="1" foregroundColor="white" />
+    <widget name="key_yellow" position="888,588" zPosition="5" size="329,45" valign="center" halign="right" font="Regular; 24" transparent="1" foregroundColor="white" />
+    <widget name="key_blue" position="888,614" zPosition="5" size="329,45" valign="center" halign="right" font="Regular; 24" transparent="1" foregroundColor="white" />
+    <widget font="Regular; 32" foregroundColor="white" halign="center" name="" position="29,649" size="329,45" transparent="1" valign="center" zPosition="5" backgroundColor="black" />
+    <widget name="list" position="50,59" size="694,429" font="Regular;24" itemHeight="40" scrollbarMode="showOnDemand" zPosition="1" />
+    <widget name="info" position="32,532" zPosition="4" size="307,32" font="Regular; 22" foregroundColor="white" transparent="1" halign="right" valign="center" />
+    <widget name="fspace" position="338,532" zPosition="5" size="600,32" font="Regular;22" foregroundColor="white" transparent="1" halign="left" valign="center" />
+    </screen>
