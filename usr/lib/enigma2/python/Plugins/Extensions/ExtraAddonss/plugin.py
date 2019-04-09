@@ -31,7 +31,7 @@ if not os.path.exists(folder):
     os.system('mkdir ' + folder)
 currversion = '1.0'
 global hostxml, HD
-host = 'aHR0cDovL3d3dy5vcGVuZXNpLmV1L3BhbmVsYWRkb25zcy54bWw='
+host = 'aHR0cDovL3d3dy5vcGVuZXNpLmV1L2FkZG9ucy9FeHRyYUFkZG9uc3N1cGRhdGUvTmV3UGFuZWwyLmlwaw=='
 hostxml = base64.b64decode(host)
 print 'host : ', hostxml
 ipkurl = 'aHR0cDovL3d3dy5vcGVuZXNpLmV1L2FkZG9ucy9FeHRyYUFkZG9uc3N1cGRhdGUvTmV3UGFuZWwuaXBr'
