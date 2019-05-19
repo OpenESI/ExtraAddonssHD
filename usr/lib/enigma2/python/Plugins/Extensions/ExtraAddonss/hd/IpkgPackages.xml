@@ -9,4 +9,11 @@
     </widget>
     <widget name="key_red" position="888,562" zPosition="5" size="329,45" valign="center" halign="right" font="Regular; 24" transparent="1" foregroundColor="white" />
     <widget name="countrymenu" position="50,59" size="694,429" font="Regular; 24" itemHeight="40" scrollbarMode="showOnDemand" zPosition="1" />
-    </screen>
+    
+    <widget name="info" position="32,528" zPosition="4" size="661,43" font="Regular; 24" foregroundColor="yellow" transparent="1" halign="center" valign="center" />
+
+    <!-- Progress  -->
+	<widget source="progress" zPosition="1" render="Progress" position="844,514" size="400,30" transparent="1" borderWidth="0" />
+	<widget source="progresstext" render="Label" position="885,476" zPosition="1" font="Regular;18" halign="right" transparent="1" size="300,30" foregroundColor="#00cc99" backgroundColor="#000000" />
+    
+    </screen>    

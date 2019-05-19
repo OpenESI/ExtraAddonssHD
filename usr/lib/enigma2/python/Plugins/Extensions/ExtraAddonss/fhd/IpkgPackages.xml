@@ -13,4 +13,11 @@
     <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ExtraAddonss/fhd/Addons.png" transparent="1" alphatest="on" />
     -->
     <ePixmap position="0,0" size="1920,1080" zPosition="-10" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ExtraAddonss/fhd/Addons_news.png" transparent="1" alphatest="on" />
-</screen>
+    
+    <widget name="info" position="90,733" zPosition="4" size="637,58" font="Regular; 32" foregroundColor="yellow" transparent="1" halign="right" valign="center" />
+
+	<!-- Progress  -->
+    <widget source="progress" zPosition="1" render="Progress" position="1274,793" size="600,40" transparent="1" borderWidth="0" />
+    <widget source="progresstext" render="Label" position="1417,749" zPosition="1" font="Regular;30" halign="right" transparent="1" size="300,40" foregroundColor="#00cc99" backgroundColor="#000000" />
+
+    </screen>

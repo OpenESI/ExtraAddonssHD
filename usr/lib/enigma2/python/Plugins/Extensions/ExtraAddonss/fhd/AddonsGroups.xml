@@ -14,4 +14,5 @@
     <widget name="info" position="62,742" zPosition="4" size="400,45" font="Regular; 28" foregroundColor="white" transparent="1" halign="right" valign="center" />
     <widget name="fspace" position="463,741" zPosition="5" size="786,45" font="Regular; 28" foregroundColor="white" transparent="1" halign="left" valign="center" />
     <ePixmap position="0,0" size="1920,1080" zPosition="0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ExtraAddonss/fhd/AddonsGroups.png" transparent="1" alphatest="on" />
+
 </screen>
